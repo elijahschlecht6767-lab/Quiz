@@ -24,6 +24,7 @@ def main():
         for j in range(4):
             print(options[i][j])
         guesses.append(input("Enter A, B, C, or D: ").lower())
+        print("")
         if guesses[i]==answers[i]:
             print("Correct!")
             score+=1
